@@ -1,20 +1,2 @@
 
-.header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.5em;
-    text-align: center;
-    background-color: rgb(255, 0, 0);
-}
 
-.headerItem {
-    display: flex;
-    flex-direction: column;
-    justify-items: space-between;
-    justify-content : center;
-}
-.btn-header-project {
-    Background-color: rgb(31, 198, 254);
-    font-size: 2rem;
-    width: 25%;
-}

@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
-import Header from './Header';
+import './Home.css';
+//components
+import Header from './Header'; 
+import ProjectList from './ProjectList';
 
 
 
@@ -24,10 +27,11 @@ import Header from './Header';
 
 function Home() {
   return (
-    <div>
-        <h1>Home</h1>
+    <div className="home">
         <Header username={"Benj"}/>
-        <Link to="/"><button>Start Page</button></Link>
+        <Link to="/"><button className="back-btn">Back</button></Link>
+
+        <ProjectList />
         {/* {(typeof backendData === 'undefined') ? (
             <h2>Loading Api...</h2>
         ): (

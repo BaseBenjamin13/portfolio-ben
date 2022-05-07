@@ -3,9 +3,10 @@
 import React from 'react';
 //components
 // import Header from './Header';
-import StartPage from './StartPage/StartPage';
-import Home from './Home/Home';
+import StartPage from './startpage/StartPage';
+import Home from './home/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './App.css';
 
 function App() {
 
