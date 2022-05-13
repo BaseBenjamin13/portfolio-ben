@@ -40,17 +40,28 @@
 
 .project-list {
     background-color: black;
+    /* display: grid; */
+    /* grid-template-columns: (3, 1fr); */
     display: flex;
+    justify-content: center;
     justify-content: space-around;
+    flex-direction: column;
     width: 80vw;
     text-align: center;
-    height: 40em;
+    /* height: 100%; */
     
 }
 
 .project {
+    display: flex;
+    align-self: center;
     background-color:white;
+    justify-content: center;
     height: 30em;
+    width: 60em;
+    margin: 1em;
+    border: 5px solid red;
+    border-radius: 15px;
 }
 
 .back-btn {
