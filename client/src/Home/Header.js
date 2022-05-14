@@ -13,6 +13,7 @@ function Header(header) {
         <div className="headerItem">
             <h1>Welcome To My Portfolio</h1>
             <p>Made By</p>
+            <p>Including all projects</p>
             <h2>Benjamin Morgiewicz</h2>
         </div>
         <div className="headerItem">

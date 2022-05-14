@@ -4,15 +4,19 @@
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     /* background-color: black; */
     background: var(--gradient);
     background-size: 400%;
+    
     animation: start-bg 10s infinite alternate;
 }
-
+.header p {
+    margin: 2px;
+}
 .header {
+
     margin-top: 20px;
     display: flex;
     /* display: grid;
@@ -40,16 +44,15 @@
 
 .project-list {
     background-color: black;
-    /* display: grid; */
-    /* grid-template-columns: (3, 1fr); */
     display: flex;
     justify-content: center;
     justify-content: space-around;
     flex-direction: column;
     width: 80vw;
     text-align: center;
-    /* height: 100%; */
-    
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);   
 }
 
 .project {
@@ -59,14 +62,30 @@
     justify-content: center;
     height: 30em;
     width: 60em;
-    margin: 1em;
-    border: 5px solid red;
+    margin: 2em;
+    margin-bottom: 3em;
+    /* border: 5px solid red; */
     border-radius: 15px;
+    /* box-shadow: 6px 6px 6px 6px rgba(86, 161, 191, .3); */
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);    
+
 }
 
 .back-btn {
-    margin: 0.5em;
+    background-color: rgba(222, 20, 20, 0);
+    color: #0455BF;
+    width: 7em;
+    height: 2.2em;
+    font-weight: bold;
     font-size: 1.5em;
-    width: 4em;
-    height: 2em;
+    border-radius: 5px;
+    border: 3px solid #0455BF;
+    background-image: var(--gradient);
+    background-size: 300%;
+    background-position: left;
+    transition: background-position 1.5s;
+    margin: 0.8em;
+}
+.project-description {
+    color: white;
 }

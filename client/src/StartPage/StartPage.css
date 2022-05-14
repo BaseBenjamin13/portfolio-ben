@@ -37,7 +37,9 @@
     justify-content: center;
     align-items: center; */
 }
-
+button {
+    cursor: pointer;
+}
 .work-btn {
     background-color: rgba(222, 20, 20, 0);
     color: #0455BF;
@@ -53,7 +55,6 @@
     background-size: 300%;
     background-position: left;
     transition: background-position 1s;
-    cursor: pointer;
 }
 .welcome {
     display: flex;
@@ -72,7 +73,7 @@
     /* background-clip: text;
     color: transparent;  */
 }
-.work-btn:hover, .welcome:hover {
+.work-btn:hover, .welcome:hover, .back-btn:hover {
     /* text-shadow: 1px 1px black;
     box-shadow: 1px 1px black; */
     /* background-size: 300%; */
