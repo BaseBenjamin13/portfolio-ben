@@ -37,35 +37,25 @@
 
 
 /* PROJECTS */
-.project-list {
-    background-color: black;
+.project-list, .project-container {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    /* justify-items: center; */
     flex-direction: column;
     width: 80vw;
+    margin: auto;
+}
+.project-list {
+    background-color: #011526;
     text-align: center;
-    /* margin: auto; */
     border-radius: 50px;
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);   
 }
 
-.project-container {
-    /* background-color: black;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    flex-direction: column;
-    width: 80vw;
-    text-align: center;
-    margin: auto; */
-    padding: 0px;
-  
-}
 
 .project {
     display: flex;
+    /* flex-direction: column; */
     align-self: center;
     background-color:white;
     justify-content: center;
@@ -103,6 +93,7 @@
 
 .project-description {
     color: white;
+    margin-bottom: 5em;
 }
 
 .show-des {
