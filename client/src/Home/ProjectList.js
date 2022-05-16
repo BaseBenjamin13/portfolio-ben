@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Project from './Project'
+import './Home.css'
 
 
 function ProjectList() {
@@ -7,32 +8,40 @@ function ProjectList() {
     const [projects, setProjects] = useState([
         {
             title: 'BlackJack',
-            des: 'yoyoyoyoy des'
+            des: 'yoyoyoyoy des',
+            show: false
         },
         {
             title: 'port',
-            des: 'yoyoyoyoy des'
+            des: 'yoyoyoyoy des',
+            show: false
         },
         {
             title: 'star wars social',
-            des: 'yoyoyoyoy des'
+            des: 'yoyoyoyoy des',
+            show: false
         },
         {
             title: 'snake game',
-            des: 'yoyoyoyoy des'
+            des: 'yoyoyoyoy des',
+            show: false
         }
     ])
-    // map through projects description, sending des para to page 
 
   return (
     <div className="project-list">
         
         {
-            projects.map((project) => {
+            projects.map((project, i) => {
                 return (
                     <Project
+                        key={i}
+                        i={i}
+                        projects={projects}
+                        setProjects={setProjects}
                         projectTitle={project.title}
                         projectDes={project.des}
+                        show={project.show}
                     />
                 )
             })

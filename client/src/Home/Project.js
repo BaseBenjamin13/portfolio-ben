@@ -1,13 +1,32 @@
 import React from 'react'
+import './Home.css'
 
-function Project({ projectTitle, projectDes }) {
+
+function Project({ i, projects, setProjects, projectTitle, projectDes, show }) {
+
+    const handleMouseEnter = (e) => {
+        const projectCopy = [...projects]
+        projectCopy[i].show = true
+        setProjects(projectCopy)
+        // console.log(projectCopy);
+    }
+
+    const handleMouseLeave = (e) => {
+        const projectCopy = [...projects]
+        projectCopy[i].show = false
+        setProjects(projectCopy)
+        // console.log(projectCopy);
+    }
+
+
+
   return (
-    <div>
+    <div className="project-container">
 
-        <div className="project">
+        <div className="project" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
             <h1>{projectTitle}</h1>
         </div>
-        <p className="project-description">{projectDes}</p>
+        { show && <p className="project-description">{projectDes}</p> }
 
     </div>
   )

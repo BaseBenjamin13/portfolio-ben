@@ -35,17 +35,33 @@
 
 
 
+
+/* PROJECTS */
 .project-list {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* justify-items: center; */
+    flex-direction: column;
+    width: 80vw;
+    text-align: center;
+    /* margin: auto; */
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);   
+}
+
+.project-container {
+    /* background-color: black;
     display: flex;
     justify-content: center;
     justify-content: space-around;
     flex-direction: column;
     width: 80vw;
     text-align: center;
-    margin: auto;
-    border-radius: 50px;
-    box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);   
+    margin: auto; */
+    padding: 0px;
+  
 }
 
 .project {
@@ -61,9 +77,12 @@
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);    
 
 }
-/* .project:hover .project-description {
-    color: red;
-} */
+
+
+
+
+
+
 
 .back-btn {
     background-color: rgba(222, 20, 20, 0);
