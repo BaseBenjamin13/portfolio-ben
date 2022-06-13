@@ -79,6 +79,14 @@
     background-size: cover;
 }
 
+.project-title {
+    margin: 0rem;
+    margin-top: 1rem;
+    font-size: 3em;
+    text-shadow: 0px 0px 15px  #1a77f2;
+    /* text-shadow: 0px 0px 15px  #0455BF; */
+}
+
 .project-description {
     color: white;
     margin-bottom: 5em;
@@ -90,6 +98,10 @@
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);  
     animation: show-des-ani 5s;
 }
+.bulls {
+    padding: 5px;
+}
+
 @keyframes show-des-ani {
     0% {color:rgba(255, 255, 255, 0)}
     0% {box-shadow: 0 0 0 0 rgba(86, 161, 191, .8)}
