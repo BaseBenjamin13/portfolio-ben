@@ -44,7 +44,11 @@
     flex-direction: column;
     width: 80vw;
     margin: auto;
+ 
 }
+
+
+
 .project-list {
     display: flex;
     justify-content: center;
@@ -54,6 +58,10 @@
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);   
 }
 
+.project-img {
+    height: 80%;
+    width: 80%;
+}
 
 .project {
     display: flex;
@@ -67,7 +75,8 @@
     margin-bottom: 3em; 
     border-radius: 15px;
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);    
-    
+    background-size: center;
+    background-size: cover;
 }
 
 .project-description {

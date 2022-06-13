@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
-import './Home.css';
+// import './Home.css';
 //components
-import Header from './Header'; 
-import ProjectList from './ProjectList';
+import Header from '../components/Header'; 
+import ProjectList from '../components/projects/ProjectList';
 
 
 

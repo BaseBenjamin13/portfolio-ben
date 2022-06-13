@@ -3,8 +3,8 @@
 import React from 'react';
 //components
 // import Header from './Header';
-import StartPage from './startpage/StartPage';
-import Home from './home/Home';
+import StartPage from './pages/StartPage';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
