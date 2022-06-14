@@ -26,8 +26,12 @@ function Project({ i, projects, setProjects, projectTitle,
         <a href={projectLink} target="_blank" className="dis-a-tag"> 
             <h1 className="project-title">{projectTitle}</h1>
         </a>
-        <div className="project" style={{backgroundImage: `url(${projectImg})`}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-        </div>
+     
+
+        <a href={projectLink} className="project-a" target="_blank">
+            <div className="project" style={{backgroundImage: `url(${projectImg})`}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}></div>
+        </a>
+        
         { show && 
         <div className="project-description">
             <p>{projectDes}</p>
