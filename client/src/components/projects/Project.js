@@ -3,7 +3,7 @@ import '../../assets/css/Home.css';
 
 
 function Project({ i, projects, setProjects, projectTitle, 
-    projectDes, projectBulls, projectImg, show }) {
+    projectDes, projectBulls, projectImg, projectLink, show }) {
 
     const handleMouseEnter = (e) => {
         const projectCopy = [...projects]
@@ -23,7 +23,9 @@ function Project({ i, projects, setProjects, projectTitle,
 
   return (
     <div className="project-container" >
-        <h1 className="project-title">{projectTitle}</h1>
+        <a href={projectLink} target="_blank" className="dis-a-tag"> 
+            <h1 className="project-title">{projectTitle}</h1>
+        </a>
         <div className="project" style={{backgroundImage: `url(${projectImg})`}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
         </div>
         { show && 

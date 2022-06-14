@@ -8,7 +8,9 @@ function Header(header) {
         {/* <h1>Current username { header.username }</h1> */}
 
         <div className="headerItem">
-            <button className="btn-header-project">Github</button>
+            <a href="https://github.com/BaseBenjamin13" target="_blank">
+                <button className="btn-header-project">Github</button>
+            </a>
         </div>
         <div className="headerItem">
             <h1>Welcome To My Portfolio</h1>
@@ -17,7 +19,9 @@ function Header(header) {
             <h2>Benjamin Morgiewicz</h2>
         </div>
         <div className="headerItem">
-            <button className="btn-header-project">Linkedin</button>
+            <a href="https://www.linkedin.com/in/benjamin-morgiewicz/" target="_blank">
+                <button className="btn-header-project">Linkedin</button>
+            </a>
         </div>
 
     </div>

@@ -79,6 +79,11 @@
     background-size: cover;
 }
 
+.dis-a-tag {
+    text-decoration: none;
+    color: inherit;
+}
+
 .project-title {
     margin: 0rem;
     margin-top: 1rem;
