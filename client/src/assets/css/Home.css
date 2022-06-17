@@ -18,7 +18,9 @@
     justify-content: space-around;
     width: 80vw;
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(4, 85, 191, .7);
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px #011526;   
 }
 
 .headerItem {
