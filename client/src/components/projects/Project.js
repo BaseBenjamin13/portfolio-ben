@@ -19,7 +19,7 @@ function Project({ i, projects, setProjects, projectTitle,
         // console.log(projectCopy);
     }
 
-
+    let className
 
   return (
     <div className="project-container" >
@@ -32,8 +32,8 @@ function Project({ i, projects, setProjects, projectTitle,
             <div className="project" style={{backgroundImage: `url(${projectImg})`}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}></div>
         </a>
         
-        { show && 
-        <div className="project-description">
+     
+        <div className={`${show ? 'project-description' : 'hide-project-description'}`}>
             <p>{projectDes}</p>
             <ul>
                 {projectBulls.map(bull => {
@@ -41,7 +41,7 @@ function Project({ i, projects, setProjects, projectTitle,
                 })}
             </ul>
         </div>
-        }
+        
     </div>
   )
 }
