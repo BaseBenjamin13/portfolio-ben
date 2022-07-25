@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ProjectData = [
     {
@@ -34,6 +33,17 @@ const ProjectData = [
         ],
         img: 'https://i.imgur.com/JWCl2rL.jpg',
         link: 'https://jellyjam.netlify.app',
+        show: false
+    },
+    {
+        title: 'Tech Excess',
+        des: "Tech excess, is a tech score made and reviewed by Benjamin Morgiewicz",
+        bulls: [
+            "Made with React, Django, PSQL, Python, and PayPal's API.",
+            "In three weeks I learned and used Django's User, Knox authentication token, and PayPal",
+        ],
+        img: 'https://i.imgur.com/zKykPu2.png',
+        link: 'https://tech-excess.netlify.app',
         show: false
     }
 ]

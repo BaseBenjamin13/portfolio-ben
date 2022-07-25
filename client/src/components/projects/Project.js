@@ -9,14 +9,12 @@ function Project({ i, projects, setProjects, projectTitle,
         const projectCopy = [...projects]
         projectCopy[i].show = true
         setProjects(projectCopy)
-        // console.log(projectCopy);
     }
 
     const handleMouseLeave = (e) => {
         const projectCopy = [...projects]
         projectCopy[i].show = false
         setProjects(projectCopy)
-        // console.log(projectCopy);
     }
 
     let className
