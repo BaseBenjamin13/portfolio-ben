@@ -1,14 +1,11 @@
 import React, { useState } from 'react'
 import Project from './Project'
 import ProjectData from '../../assets/ProjectsData'
-// import './Home.css'
 
 
 function ProjectList() {
 
-
     const [projects, setProjects] = useState(ProjectData)
-
     
   return (
     <div className="project-list">
@@ -31,7 +28,6 @@ function ProjectList() {
                 )
             })
         }
-
 
     </div>
   )

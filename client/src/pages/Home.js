@@ -1,28 +1,7 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
-// import './Home.css';
-//components
 import Header from '../components/Header'; 
 import ProjectList from '../components/projects/ProjectList';
-
-
-
-
-// const [backendData, setBackendData] = useState([{}])
-
-// 	useEffect(() => {
-// 		fetch("/api")
-// 		.then(
-// 			res => res.json()
-// 		)
-// 		.then(
-// 			data => {
-// 				setBackendData(data);
-// 				console.log(backendData);
-// 			}
-// 		)
-// 	}, [])
-
 
 
 function Home() {
@@ -32,13 +11,6 @@ function Home() {
         <Link to="/"><button className="back-btn">Back</button></Link>
 
         <ProjectList />
-        {/* {(typeof backendData === 'undefined') ? (
-            <h2>Loading Api...</h2>
-        ): (
-            backendData.map((user, i) => (
-                    <h2 key={i}>{user.userName}</h2>
-                ))
-        )} */}
     </div>
   )
 }

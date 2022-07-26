@@ -1,6 +1,5 @@
 
 :root {
-    /* --gradient: linear-gradient(45deg, #845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871) */
     --gradient: linear-gradient(60deg, #0455BF, #011526, #011526, #0455BF, #011526, #011526)
 }
 
@@ -10,14 +9,10 @@
     background: var(--gradient);
     background-size: 400%;
     animation: start-bg 10s infinite alternate;
-    /* background: linear-gradient(to right , #0455BF, #011526, #011526, #0455BF); */
-    /* background: radial-gradient(#000f1b, #014298); */
-    /* background-color: #011526; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* color: #0455BF; */
 }
 
 @keyframes start-bg {
@@ -29,14 +24,6 @@
 
 .div-mywork {
     text-align: center;
-    /* background: radial-gradient( #0455bfc9, #011526); */
-    /* position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 button {
     cursor: pointer;
@@ -50,8 +37,6 @@ button {
     font-size: 1.2em;
     border-radius: 5px;
     border: 3px solid #0455BF;
-    /* box-shadow:  1px 1px 5px 5px black;
-    text-shadow: 7px 7px black; */
     background-image: var(--gradient);
     background-size: 300%;
     background-position: left;
@@ -62,22 +47,14 @@ button {
     align-items: center;
     justify-content: center;
     padding: 0.3em 0 0.3em 0;
-    /* text-shadow: 7px 7px black; */
     border-radius: 5px;
     border: 3px solid #0455BF;
     height: 2em;
     width: 12em;
     font-size: 4em;
-    /* background-color: #0455BF; */
     text-shadow: 4px 4px 4px  #0455BF;
-    /* background-image: var(--gradient); */
-    /* background-clip: text;
-    color: transparent;  */
 }
 .work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover {
-    /* text-shadow: 1px 1px black;
-    box-shadow: 1px 1px black; */
-    /* background-size: 300%; */
     background-position: right;
 }
 
