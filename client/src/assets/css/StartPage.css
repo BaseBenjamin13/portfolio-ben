@@ -50,8 +50,8 @@ button {
     border-radius: 5px;
     border: 3px solid #0455BF;
     height: 2em;
-    width: 12em;
-    font-size: 4em;
+    max-width: 12em;
+    
     text-shadow: 4px 4px 4px  #0455BF;
 }
 .work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover {
@@ -62,5 +62,9 @@ button {
     background-position: right;
 }
 
-
+@media (min-width: 768px) {
+    .welcome {
+        font-size: 4em;
+    }
+}
 
