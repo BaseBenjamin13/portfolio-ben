@@ -74,7 +74,7 @@ button {
     /* background-clip: text;
     color: transparent;  */
 }
-.work-btn:hover, .welcome:hover, .back-btn:hover {
+.work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover {
     /* text-shadow: 1px 1px black;
     box-shadow: 1px 1px black; */
     /* background-size: 300%; */

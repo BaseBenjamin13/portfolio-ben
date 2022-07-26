@@ -30,9 +30,18 @@
     justify-content : center;
 }
 .btn-header-project {
-    Background-color: rgb(31, 198, 254);
     font-size: 2rem;
+    font-weight: bold;
     width: 100%;
+    color: #0455BF;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 3px solid #0455BF;
+    background-image: var(--gradient);
+    background-size: 400%;
+    transition: background-position 3s;
 }
 
 
