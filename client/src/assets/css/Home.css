@@ -191,7 +191,17 @@
 
 
 
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-flow: wrap;
+        width: 80vw;
+    }
+}
 @media screen and (max-width: 450px) {
+    .btn-header-project {
+        margin: 0.5rem;
+    }
     .project {
         margin: 1em;
         margin-bottom: 3em; 
