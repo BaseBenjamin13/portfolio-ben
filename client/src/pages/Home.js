@@ -7,7 +7,7 @@ import ProjectList from '../components/projects/ProjectList';
 function Home() {
   return (
     <div className="home">
-        <Header username={"Benj"}/>
+        <Header />
         <Link to="/"><button className="back-btn">Back</button></Link>
 
         <ProjectList />

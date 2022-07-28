@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Header(header) {
+function Header() {
   return (
     <div className="header">
         <div className="headerItem">
