@@ -6,7 +6,7 @@ import BrandStatement from '../components/BrandStatement';
 
 function About() {
   return (
-    <div className="home">
+    <div className="about">
         <Header />
         <div className="headerItem">    
             <Link className="nav-link" to="/home">

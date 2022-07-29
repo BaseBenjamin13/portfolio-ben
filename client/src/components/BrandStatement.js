@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/css/AboutMe.css';
 
 function BrandStatement() {
   return (

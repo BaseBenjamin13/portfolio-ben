@@ -1,9 +1,9 @@
 
-.home {
+.home, .about {
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* height: 100%; */
+    min-height: 100vh;
     width: 100vw;
     background: var(--gradient);
     background-size: 400%;

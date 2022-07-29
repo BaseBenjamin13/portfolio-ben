@@ -1,0 +1,6 @@
+
+
+
+
+#1:
+width of screen is too large but not on about us page, on mobile and desktop.
