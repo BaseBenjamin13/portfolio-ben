@@ -9,8 +9,8 @@ function Home() {
     <div className="home">
         <Header />
         <div className="headerItem">    
-            <Link to="/about">
-                <button className="btn-header-project">About Me</button>
+            <Link className="nav-link" to="/about">
+                <button className="btn-header-about">About Me</button>
             </Link>
         </div>
         <Link to="/"><button className="back-btn">Back</button></Link>

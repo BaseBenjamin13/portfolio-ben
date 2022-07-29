@@ -29,7 +29,7 @@
     justify-items: space-between;
     justify-content : center;
 }
-.btn-header-project {
+.btn-header-project, .btn-header-about, .btn-header-home {
     font-size: 2rem;
     font-weight: bold;
     width: 100%;
@@ -42,6 +42,14 @@
     background-image: var(--gradient);
     background-size: 400%;
     transition: background-position 3s;
+}
+.nav-link {
+    margin: 2rem;
+}
+.btn-header-about, .btn-header-home {
+    font-family: "SF Mono", monospace;
+    font-size: 2.5rem;
+    width: 10em;
 }
 
 

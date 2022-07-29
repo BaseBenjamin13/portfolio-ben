@@ -7,8 +7,8 @@ function About() {
     <div className="home">
         <Header />
         <div className="headerItem">    
-            <Link to="/home">
-                <button className="btn-header-project">Home</button>
+            <Link className="nav-link" to="/home">
+                <button className="btn-header-home">Home</button>
             </Link>
         </div>
         <h1>About Me</h1>
