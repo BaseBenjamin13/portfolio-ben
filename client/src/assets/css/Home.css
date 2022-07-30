@@ -66,6 +66,9 @@
     margin-bottom: 4%;
 }
 
+.project-container {
+    position: relative;
+}
 
 
 .project-list {
@@ -119,7 +122,6 @@
     align-self: center;
     background: black;
     width: 60em;
-    height: 15rem;
     border-radius: 15px;
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);  
     animation: show-des-ani 3s;
@@ -137,23 +139,41 @@
 }
 
 @keyframes show-des-ani {
+    from {
+        transform: translateY(-60%);
+        opacity: 0;
+        position: relative;
+        z-index: -50;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
     0% {color:rgba(255, 255, 255, 0)}
     0% {box-shadow: 0 0 0 0 rgba(86, 161, 191, .8)}
-    0% {height: 0rem}
     0% {margin-bottom: 0rem}
     40% {color:rgba(255, 255, 255, 0)}
     100% {color:rgba(255, 255, 255, 1)}
-    100% {height: 15rem}
     100% {margin-bottom: 5em;}
     100% {box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8)}
 }
 @keyframes hide-des-ani {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-60%);
+        opacity: 0;
+        position: relative;
+        z-index: -50;
+    }
     0% {color: white;}
     0% {margin-bottom: 5em;}
     0% {align-self: center;}
     0% {background: black;}
     0% {width: 60em;}
-    0% {height: 15rem;}
+    0% {height: 100%;}
     0% {border-radius: 15px;}
     0% {box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);}
     30% {color:rgba(255, 255, 255, 0)}
