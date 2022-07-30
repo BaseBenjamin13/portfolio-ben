@@ -20,8 +20,6 @@
     100% {background-position: right}
 }
 
-
-
 .div-mywork {
     text-align: center;
 }
@@ -54,7 +52,7 @@ button {
     
     text-shadow: 4px 4px 4px  #0455BF;
 }
-.work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover, .btn-header-about:hover {
+.work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover, .btn-header-about:hover, .btn-header-home:hover {
     background-position: right;
 }
 

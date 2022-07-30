@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../components/Header'; 
 import BrandStatement from '../components/BrandStatement';
+import LangsAndDatabases from '../components/LangsAndDatabases';
 
 function About() {
   return (
@@ -16,6 +17,8 @@ function About() {
         <h1>About Me</h1>
 
         <BrandStatement />
+
+        <LangsAndDatabases />
 
     </div>
   )

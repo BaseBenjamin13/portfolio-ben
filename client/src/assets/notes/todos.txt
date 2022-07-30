@@ -4,4 +4,9 @@ starting 2022 July 29
 
 
 style brand statement. ✅
+remake description animation. ✅
+setup languages & Databases component. ✅
+add icon for each language & Database.
+style languages & Databases component.
+setup technologies component.
 
