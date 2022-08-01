@@ -28,6 +28,11 @@ function LangsAndDatabases() {
             svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
             alt: "sql icon"
         },
+        {
+            title: "MongoDB",
+            svg: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+            alt: "mongo db icon"
+        },
     ])
 
   return (
@@ -37,7 +42,7 @@ function LangsAndDatabases() {
             {
                 icons.map(icon => {
                     return(
-                        <div>
+                        <div className="icon">
                             <img src={icon.svg} className="dev-icon" alt={icon.alt} />
                             <h2>{icon.title}</h2>
                         </div>

@@ -7,7 +7,7 @@ style brand statement. ✅
 remake description animation. ✅
 setup languages & Databases component. ✅
 add icon for each language. ✅
-add icon for each Database.
-style languages & Databases component.
+add icon for each Database. ✅
+style languages & Databases component. ✅
 setup technologies component.
 

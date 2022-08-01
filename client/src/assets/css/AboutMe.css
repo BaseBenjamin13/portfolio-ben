@@ -26,7 +26,17 @@
     width: 80%;
 }
 
+.icons-container {
+    display: flex;
+}
+
+.icon {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 .dev-icon {
     margin: 1.5rem;
     width: 10rem;
+    box-shadow: 5px 5px 10px 2px;
 }
