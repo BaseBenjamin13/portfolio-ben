@@ -11,3 +11,5 @@ add icon for each Database. ✅
 style languages & Databases component. ✅
 setup technologies component.
 
+add contact info.
+
