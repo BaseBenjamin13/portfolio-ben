@@ -10,7 +10,9 @@ add icon for each language. ✅
 add icon for each Database. ✅
 style languages & Databases component. ✅
 change meta tag. ✅
-setup technologies component.
+setup technologies component. ✅
+style technologies component. 
 resort projects.
 add contact info.
+on mobile just show description without hover.
 
