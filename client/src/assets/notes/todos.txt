@@ -9,7 +9,8 @@ setup languages & Databases component. ✅
 add icon for each language. ✅
 add icon for each Database. ✅
 style languages & Databases component. ✅
+change meta tag. ✅
 setup technologies component.
-
+resort projects.
 add contact info.
 
