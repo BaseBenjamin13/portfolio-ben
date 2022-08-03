@@ -10,6 +10,8 @@ add icon for each language. ✅
 add icon for each Database. ✅
 style languages & Databases component. ✅
 change meta tag. ✅
+setup frameworks component. ✅
+style frameworks component. ✅
 setup technologies component. ✅
 style technologies component. ✅
 resort projects.

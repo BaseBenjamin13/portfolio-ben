@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import BrandStatement from '../components/aboutme/BrandStatement';
 import LangsAndDatabases from '../components/aboutme/LangsAndDatabases';
 import FrameWorks from '../components/aboutme/FrameWorks';
+import Techs from '../components/aboutme/Techs';
 
 function About() {
   return (
@@ -15,13 +16,14 @@ function About() {
                 <button className="btn-header-home">Home</button>
             </Link>
         </div>
-        <h1>About Me</h1>
 
         <BrandStatement />
 
         <LangsAndDatabases />
 
         <FrameWorks />
+
+        <Techs />
 
     </div>
   )
