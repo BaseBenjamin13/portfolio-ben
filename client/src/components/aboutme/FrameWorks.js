@@ -30,25 +30,23 @@ function FrameWorks() {
         }
     ])
 
-  return (
-    <div>
+    return (
         <div className="frame-container">
-        <h1 className="frame-title">Languages and Databases</h1>
-        <div className="icons-container">
-            {
-                frameIcons.map(icon => {
-                    return(
-                        <div className="icon">
-                            <img src={icon.svg} className="dev-icon" alt={icon.alt} />
-                            <h2>{icon.title}</h2>
-                        </div>
-                    )
-                })
-            }
+            <h1 className="frame-title">Languages and Databases</h1>
+            <div className="icons-container">
+                {
+                    frameIcons.map(icon => {
+                        return(
+                            <div className="icon">
+                                <img src={icon.svg} className="frame-icon" alt={icon.alt} />
+                                <h2>{icon.title}</h2>
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </div>
-    </div>
-    </div>
-  )
+    )
 }
 
 export default FrameWorks

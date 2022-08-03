@@ -1,7 +1,7 @@
 
 
-.brand-statement-container, .langs-container {
-    background-color: #0455BF;
+.brand-statement-container, .langs-container, .frame-container {
+    background-color: rgb(4, 85, 191, 0.8);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,13 +12,16 @@
     margin-bottom: 3em;
 }
 
-.about-me-title {
+.about-me-title, .frame-title {
     border-radius: 50px;
     padding: 15px;
     background-color: #011526;
     color: #0455BF;
     font-size: 3rem;
     box-shadow: 0 0 5px 5px #01284b; 
+}
+.frame-title {
+    font-size: 2.5rem;
 }
 .brand-statement-body {
     font-size: 1.9rem;
@@ -35,8 +38,12 @@
     font-size: 1.2rem;
 }
 
-.dev-icon {
+.dev-icon, .frame-icon {
     margin: 1.5rem;
     width: 10rem;
     box-shadow: 5px 5px 10px 2px;
+}
+.frame-icon {
+    margin: 1.5rem;
+    width: 12rem;
 }
