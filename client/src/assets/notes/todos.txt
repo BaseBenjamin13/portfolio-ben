@@ -14,7 +14,7 @@ setup frameworks component. ✅
 style frameworks component. ✅
 setup technologies component. ✅
 style technologies component. ✅
-resort projects.
+resort projects. ✅
 add contact info.
 on mobile just show description without hover.
 

@@ -1,14 +1,14 @@
 
 const ProjectData = [
     {
-        title: 'BlackJack',
-        des: 'BlackJack is a card game. The goal of blackjack is to get 21 but if you over 21 you lose, you can win by getting closer to 21 then the dealer.',
+        title: 'Tech Excess',
+        des: "Tech excess, is a tech store made and reviewed by Benjamin Morgiewicz",
         bulls: [
-            'Utilized Javascript for the logic behind the game and dom manipulation to have live feedback, made in 2 weeks.',
-            'Created Black Jack with a desktop first approach and styled using Styled-Components and CSS3 with flexbox layouts.'
+            "Made with React, Django, PSQL, Python, and PayPal's API.",
+            "In three weeks I learned and used Django's User, Knox authentication token, and PayPal",
         ],
-        img: 'https://i.imgur.com/WADvHYc.jpg',
-        link: 'https://basebenjamin13.github.io/Blackjack/',
+        img: 'https://i.imgur.com/zKykPu2.png',
+        link: 'https://tech-excess.netlify.app',
         show: false
     },
     {
@@ -36,16 +36,16 @@ const ProjectData = [
         show: false
     },
     {
-        title: 'Tech Excess',
-        des: "Tech excess, is a tech store made and reviewed by Benjamin Morgiewicz",
+        title: 'BlackJack',
+        des: 'BlackJack is a card game. The goal of blackjack is to get 21 but if you over 21 you lose, you can win by getting closer to 21 then the dealer.',
         bulls: [
-            "Made with React, Django, PSQL, Python, and PayPal's API.",
-            "In three weeks I learned and used Django's User, Knox authentication token, and PayPal",
+            'Utilized Javascript for the logic behind the game and dom manipulation to have live feedback, made in 2 weeks.',
+            'Created Black Jack with a desktop first approach and styled using Styled-Components and CSS3 with flexbox layouts.'
         ],
-        img: 'https://i.imgur.com/zKykPu2.png',
-        link: 'https://tech-excess.netlify.app',
+        img: 'https://i.imgur.com/WADvHYc.jpg',
+        link: 'https://basebenjamin13.github.io/Blackjack/',
         show: false
-    }
+    },
 ]
 
 export default ProjectData
