@@ -2,6 +2,7 @@ import React from 'react'
 
 
 function Header() {
+    
   return (
     <div className="header">
         <div className="headerItem">
@@ -14,6 +15,8 @@ function Header() {
             <p>Made By</p>
             <p>Including all projects</p>
             <h2>Benjamin Morgiewicz</h2>
+            <a className="email-me"href="mailto:benmorgiewicz@gmail.com">Email Me</a>
+            <a className="call-me"href="tel:845-248-9919">Call Me</a>
         </div>
         <div className="headerItem">
             <a href="https://www.linkedin.com/in/benjamin-morgiewicz/" target="_blank">

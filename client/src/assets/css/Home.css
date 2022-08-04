@@ -23,6 +23,11 @@
     box-shadow: 0 0 10px 10px #011526;   
 }
 
+.email-me, .call-me {
+    color: black;
+    font-size: 3rem;
+}
+
 .headerItem {
     display: flex;
     flex-direction: column;
