@@ -36,8 +36,8 @@ function Project({ i, projects, setProjects, projectTitle,
         <div className={`${show ? 'project-description' : 'hide-project-description'}`}>
             <p>{projectDes}</p>
             <ul>
-                {projectBulls.map(bull => {
-                    return <li className="bulls">{bull}</li>
+                {projectBulls.map((bull, i) => {
+                    return <li key={i} className="bulls">{bull}</li>
                 })}
             </ul>
         </div>

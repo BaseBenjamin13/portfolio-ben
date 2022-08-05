@@ -15,7 +15,8 @@ function Header() {
             <p>Made By</p>
             <p>Including all projects</p>
             <h2>Benjamin Morgiewicz</h2>
-            <h1>Email Me<a className="email-me"href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a></h1>
+            <h1>Email Me</h1>
+            <a className="email-me"href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
         </div>
         <div className="headerItem">
             <a href="https://www.linkedin.com/in/benjamin-morgiewicz/" target="_blank">
