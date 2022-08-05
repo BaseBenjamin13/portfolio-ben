@@ -23,9 +23,13 @@
     box-shadow: 0 0 10px 10px #011526;   
 }
 
-.email-me, .call-me {
-    color: black;
-    font-size: 3rem;
+.email-me {
+    margin: 10px;
+    padding: 10px;
+    font-size: 110%;
+    background-color: #011526;
+    border-radius: 20px;
+    border: 5px solid rgb(0, 81, 187, 0.5);
 }
 
 .headerItem {
