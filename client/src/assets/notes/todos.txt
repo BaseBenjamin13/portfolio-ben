@@ -17,6 +17,6 @@ style technologies component. ✅
 resort projects. ✅
 add contact info. ✅
 setup icons display ✅
-add icons to project descriptions. 
+add icons to project descriptions. ✅
 on mobile just show description without hover. 
 

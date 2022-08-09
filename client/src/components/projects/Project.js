@@ -39,11 +39,11 @@ function Project({ i, projects, setProjects, projectTitle,
                     return <li key={i} className="bulls">{bull}</li>
                 })}
             </ul>
-            <div className="p-icon" key={i}>
-            
+
+            <div className="p-icons" key={i}>
             {show &&
                 icons?.map((icon, i) => {
-                    return <img key={i} src={icon} className="frame-icon" />
+                    return <img key={i} src={icon} className="p-icon" />
                 })
             }
             </div>

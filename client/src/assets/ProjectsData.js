@@ -11,10 +11,11 @@ const ProjectData = [
         link: 'https://tech-excess.netlify.app',
         show: false,
         icons: [
-            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg',
             'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
         ]
     },
     {
@@ -28,7 +29,16 @@ const ProjectData = [
         ],
         img: 'https://i.imgur.com/NdPWO86.jpg',
         link: 'https://starwars-social.herokuapp.com/movies',
-        show: false
+        show: false,
+        icons: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/handlebars/handlebars-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+        ]
     },
     {
         title: 'Jelly Jam',
@@ -39,7 +49,16 @@ const ProjectData = [
         ],
         img: 'https://i.imgur.com/JWCl2rL.jpg',
         link: 'https://jellyjam.netlify.app',
-        show: false
+        show: false,
+        icons: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+        ]
     },
     {
         title: 'BlackJack',
@@ -50,7 +69,13 @@ const ProjectData = [
         ],
         img: 'https://i.imgur.com/WADvHYc.jpg',
         link: 'https://basebenjamin13.github.io/Blackjack/',
-        show: false
+        show: false,
+        icons: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+        ]
     },
 ]
 
