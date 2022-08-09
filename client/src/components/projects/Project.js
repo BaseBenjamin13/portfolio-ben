@@ -3,7 +3,7 @@ import '../../assets/css/Home.css';
 
 
 function Project({ i, projects, setProjects, projectTitle, 
-    projectDes, projectBulls, projectImg, projectLink, show }) {
+    projectDes, projectBulls, projectImg, projectLink, show, icons }) {
 
     const handleMouseEnter = (e) => {
         const projectCopy = [...projects]
@@ -24,7 +24,6 @@ function Project({ i, projects, setProjects, projectTitle,
         <a href={projectLink} target="_blank" className="dis-a-tag"> 
             <h1 className="project-title">{projectTitle}</h1>
         </a>
-     
 
         <a href={projectLink} className="project-a" target="_blank">
             <div className="project" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
@@ -40,6 +39,14 @@ function Project({ i, projects, setProjects, projectTitle,
                     return <li key={i} className="bulls">{bull}</li>
                 })}
             </ul>
+            <div className="p-icon" key={i}>
+            
+            {show &&
+                icons?.map((icon, i) => {
+                    return <img key={i} src={icon} className="frame-icon" />
+                })
+            }
+            </div>
         </div>
         
     </div>

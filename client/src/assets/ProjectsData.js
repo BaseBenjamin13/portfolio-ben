@@ -9,7 +9,13 @@ const ProjectData = [
         ],
         img: 'https://i.imgur.com/zKykPu2.png',
         link: 'https://tech-excess.netlify.app',
-        show: false
+        show: false,
+        icons: [
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg',
+            'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+        ]
     },
     {
         title: 'Star Wars Social',

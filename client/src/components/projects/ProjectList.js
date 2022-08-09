@@ -24,6 +24,7 @@ function ProjectList() {
                         projectImg={project.img}
                         projectLink={project.link}
                         show={project.show}
+                        icons={project.icons}
                     />
                 )
             })
