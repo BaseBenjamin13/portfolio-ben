@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Resume from '../assets/imgs/Benjamin-Morgiewicz-GA.pdf';
 
 
 function Header() {
@@ -16,7 +17,8 @@ function Header() {
             <p>Including all projects</p>
             <h2>Benjamin Morgiewicz</h2>
             <h1>Email Me</h1>
-            <a className="email-me"href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
+            <a className="email-me" href="mailto:benmorgiewicz@gmail.com">benmorgiewicz@gmail.com</a>
+            <a className="resume" href={Resume} target="_blank">My Resume</a>
         </div>
         <div className="headerItem">
             <a href="https://www.linkedin.com/in/benjamin-morgiewicz/" target="_blank">
