@@ -37,17 +37,49 @@
 .icon, .tech-icon {
     text-align: center;
     font-size: 1.2rem;
+    margin: 1.5rem;
 }
 .tech-icon {
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
-.dev-icon, .frame-icon {
-    margin: 1.5rem;
+.dev-icon {
     width: 10rem;
     box-shadow: 5px 5px 10px 2px;
+    /* animation: make-icon-smaller 1s; */
+    -webkit-transition: width 0.5s ease-in-out;
 }
 .frame-icon {
-    margin: 1.5rem;
     width: 12rem;
+    box-shadow: 5px 5px 10px 2px;
+    animation: make-frame-icon-smaller 1s;
+    -webkit-transition: width 0.5s ease-in-out;
 }
+
+.dev-icon:hover {
+    width: 15rem;
+    /* animation: make-icon-bigger 1s; */
+    -webkit-transition: width 0.5s ease-in-out;
+}
+.frame-icon:hover {
+    width: 15rem;
+    /* animation: make-frame-icon-bigger 1s; */
+    -webkit-transition: width 0.5s ease-in-out;
+}
+
+/* @keyframes make-icon-bigger {
+    0% {width: 10rem;}
+    100% {width: 15rem;}
+}
+@keyframes make-icon-smaller {
+    0% {width: 15rem;}
+    100% {width: 10rem;}
+}
+@keyframes make-frame-icon-bigger {
+    0% {width: 12rem;}
+    100% {width: 15rem;}
+}
+@keyframes make-frame-icon-smaller {
+    0% {width: 15rem;}
+    100% {width: 12rem;}
+} */
