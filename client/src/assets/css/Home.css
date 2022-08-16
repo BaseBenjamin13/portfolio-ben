@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    width: 100vw;
+    width: 99vw;
     background: var(--gradient);
     background-size: 400%;
     animation: start-bg 10s infinite alternate;
@@ -151,7 +151,7 @@
     margin-bottom: 5em;
     align-self: center;
     background: black;
-    width: 60em;
+    width: 70%;
     border-radius: 15px;
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);  
     animation: show-des-ani 3s;
@@ -178,6 +178,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .p-icon {
     background-color: rgb(4, 85, 191, 0.8);
@@ -278,6 +279,13 @@
     }
 }
 @media screen and (max-width: 450px) {
+    .header {
+        margin-top: 10px;
+        width: 90vw; 
+    }
+    #welcome {
+        font-size: 260%;
+    }
     .btn-header-project {
         margin: 0.5rem;
     }
@@ -303,6 +311,19 @@
         background-color: #011526;
         border-radius: 20px;
         border: 5px solid rgb(0, 81, 187, 0.5);
+    }
+    .git-repo{
+        margin: 1rem;
+    }
+    .project-description li {
+        font-size: 100%;
+    }
+    .description-p {
+        font-size: 100%;
+    }
+    .p-icon {
+        margin: 1rem;
+        width: 20%;
     }
 }
 

@@ -19,5 +19,5 @@ add contact info. ✅
 setup icons display ✅
 add icons to project descriptions. ✅
 on mobile just show description without hover. ✅
-make project description mobile responsive. 
+make project description mobile responsive. ✅
 
