@@ -32,7 +32,7 @@ button {
     width: 50%;
     height: 2.3em;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border-radius: 5px;
     border: 3px solid #0455BF;
     background-image: var(--gradient);
@@ -49,7 +49,7 @@ button {
     border: 3px solid #0455BF;
     height: 2em;
     max-width: 12em;
-    
+    color: white;
     text-shadow: 4px 4px 4px  #0455BF;
 }
 .work-btn:hover, .welcome:hover, .back-btn:hover, .btn-header-project:hover, .btn-header-about:hover, .btn-header-home:hover {
