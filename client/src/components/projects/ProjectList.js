@@ -16,6 +16,7 @@ function ProjectList() {
                     <Project
                         key={i}
                         i={i}
+                        project={project}
                         projects={projects}
                         setProjects={setProjects}
                         projectTitle={project.title}

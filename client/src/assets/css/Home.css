@@ -156,6 +156,12 @@
     box-shadow: 0 0 10px 10px rgba(86, 161, 191, .8);  
     animation: show-des-ani 3s;
 }
+.project-description li {
+    font-size: 120%;
+}
+.description-p {
+    font-size: 130%;
+}
 .hide-project-description {
     color:rgba(255, 255, 255, 0);
     height: 0rem;

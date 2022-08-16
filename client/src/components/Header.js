@@ -25,8 +25,6 @@ function Header() {
         </div>
         <div className="headerItem">
             <h1 id="welcome">Welcome To My Portfolio</h1>
-            <p>Made By</p>
-            <p>Including all projects</p>
             <h1>Benjamin Morgiewicz</h1>
             <h1>The Software <span ref={titles}></span></h1>
             <h1>Email Me</h1>

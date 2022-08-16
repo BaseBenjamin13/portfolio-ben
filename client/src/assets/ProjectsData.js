@@ -2,6 +2,8 @@
 const ProjectData = [
     {
         title: 'Tech Excess',
+        githubFront: 'https://github.com/BaseBenjamin13/tech-excess-client',
+        githubBack: 'https://github.com/BaseBenjamin13/tech-excess-server',
         des: "Tech excess, is a tech store made and reviewed by Benjamin Morgiewicz",
         bulls: [
             "Made with React, Django, PSQL, Python, and PayPal's API.",
@@ -20,6 +22,7 @@ const ProjectData = [
     },
     {
         title: 'Star Wars Social',
+        githubFront: 'https://github.com/BaseBenjamin13/starwars-social',
         des: 'Star Wars Social - Where all star wars fans come to unite. All star wars fans big and small can come to Star Wars Social to talk about, like, review and make favorites of all movies, shows, games, and make a watch/play list for later.',
         bulls: [
             'in API Development, made RESTful JSON API fetch calls to an Express, MongoDB, Node backend handling all create, read, update, delete (CRUD), and tested all backend routes during development using Postman.',
@@ -42,6 +45,8 @@ const ProjectData = [
     },
     {
         title: 'Jelly Jam',
+        githubFront: 'https://github.com/BaseBenjamin13/jellyjam-client-side',
+        githubBack: 'https://github.com/BaseBenjamin13/jellyjam-server-side',
         des: "Group project: App that allows you to find music for free, using Spotify's music API ",
         bulls: [
             "Leveraged React, Express, MongoDB, Node.js, and Spotify's API.",
@@ -62,6 +67,7 @@ const ProjectData = [
     },
     {
         title: 'BlackJack',
+        githubFront: 'https://github.com/BaseBenjamin13/Blackjack',
         des: 'BlackJack is a card game. The goal of blackjack is to get 21 but if you over 21 you lose, you can win by getting closer to 21 then the dealer.',
         bulls: [
             'Utilized Javascript for the logic behind the game and dom manipulation to have live feedback, made in 2 weeks.',
