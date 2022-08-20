@@ -12,7 +12,7 @@ function About() {
     <div className="about">
         <Header />
         <div className="headerItem">    
-            <Link className="nav-link" to="/home">
+            <Link className="nav-link" to="/">
                 <button className="btn-header-home">Home</button>
             </Link>
         </div>

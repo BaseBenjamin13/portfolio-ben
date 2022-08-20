@@ -15,11 +15,11 @@ function App() {
 				{/* <Home /> */}
 				<Switch>
 					<Route exact path="/">
-						<StartPage />
-					</Route>
-					<Route exact path="/home">
+						{/* <StartPage /> */}
 						<Home />
 					</Route>
+					{/* <Route exact path="/home">
+					</Route> */}
 					<Route exact path="/about">
 						<About />
 					</Route>

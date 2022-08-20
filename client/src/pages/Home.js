@@ -13,7 +13,7 @@ function Home() {
                 <button className="btn-header-about">About Me</button>
             </Link>
         </div>
-        <Link to="/"><button className="back-btn">Back</button></Link>
+        {/* <Link to="/"><button className="back-btn">Back</button></Link> */}
 
         <ProjectList />
     </div>
