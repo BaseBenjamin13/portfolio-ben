@@ -47,13 +47,13 @@
 }
 
 .dev-icon {
-    width: 10rem;
+    width: 8rem;
     box-shadow: 5px 5px 10px 2px;
     /* animation: make-icon-smaller 1s; */
     -webkit-transition: width 0.5s ease-in-out;
 }
 .frame-icon {
-    width: 12rem;
+    width: 10rem;
     box-shadow: 5px 5px 10px 2px;
     /* animation: make-frame-icon-smaller 1s; */
     -webkit-transition: width 0.5s ease-in-out;
