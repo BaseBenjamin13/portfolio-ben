@@ -62,7 +62,7 @@ function Techs() {
             {
                 tech.map(icon => {
                     return(
-                        <div className="tech-icon">
+                        <div className="icon">
                             <img src={icon.svg} className="dev-icon" alt={icon.alt} />
                             <h2>{icon.title}</h2>
                         </div>
