@@ -12,13 +12,16 @@
     margin-bottom: 3em;
 }
 
-.about-me-title, .frame-title {
+.about-me-title, .frame-title, .why-coding-title {
     border-radius: 50px;
     padding: 15px;
     background-color: #011526;
     color: #0455BF;
     font-size: 3rem;
     box-shadow: 0 0 5px 5px #01284b; 
+}
+.why-coding-title {
+    font-size: 1.5rem;
 }
 
 .brand-statement-body {
