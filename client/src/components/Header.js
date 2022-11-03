@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { init } from 'ityped';
-import Resume from '../assets/imgs/Benjamin-Morgiewicz-GA.pdf';
+import Resume from '../assets/imgs/Benjamin-Morgiewicz-Resume.docx';
 
 
 function Header() {
