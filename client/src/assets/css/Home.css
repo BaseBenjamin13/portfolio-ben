@@ -87,6 +87,15 @@
   }
 
 
+.git-history-container {
+    margin-top: 20px;
+    padding: 1.5%;
+    background-color: rgba(4, 85, 191, .7);
+    border-radius: 50px;
+    box-shadow: 0 0 10px 10px #011526;  
+}
+
+
 
 /* PROJECTS */
 .project-list, .project-container {
