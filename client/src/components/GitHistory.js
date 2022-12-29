@@ -17,7 +17,7 @@ function GitHistory() {
         {/* <GitHubCalendar username="basebenjamin13"/> */}
         <GitHubCalendar
             fontSize={25}
-            blockSize={20}
+            blockSize={15}
             blockRadius={5}
             color={"#010D26"}
             
